@@ -1,0 +1,26 @@
+:root{--ink:#101318;--deep:#5E6676;--meta:#8A92A3;--hair:#DEE3EC;--pri:#C9D1E0;--canvas:#101218;--red:#FF1F3D;--ok:#6C9BD1}
+*{box-sizing:border-box}
+html,body{margin:0;background:linear-gradient(180deg,#F2F6FF 0%,#F7F9FC 100%) fixed;color:var(--ink);font:16px/1.55 -apple-system,"SF Pro Text","Helvetica Neue",Arial,sans-serif}
+a{color:var(--ink)}
+.wrap{max-width:760px;margin:0 auto;padding:40px 24px 80px}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:48px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em}
+.brand img{width:28px;height:28px;border-radius:7px}
+nav a{font-size:14px;color:var(--deep);text-decoration:none;margin-left:18px}
+nav a:hover{color:var(--ink)}
+h1{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:40px;line-height:1.08;letter-spacing:-.015em;margin:0 0 12px}
+h2{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:22px;letter-spacing:-.01em;margin:40px 0 8px}
+.lede{font-size:19px;color:var(--deep);margin:0 0 28px}
+p,li{color:var(--deep)}
+p b,li b{color:var(--ink);font-weight:600}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--meta);margin:0 0 10px}
+.card{background:#fff;border:1px solid var(--hair);border-radius:14px;padding:18px 20px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:22px 0}
+.grid .card{margin:0}
+.card h3{font-family:"Space Grotesk",sans-serif;font-size:16px;margin:0 0 6px}
+.card p{font-size:14px;margin:0}
+.cta{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:600;border-radius:12px;padding:12px 20px;margin:8px 0 0}
+.meta{font-size:13px;color:var(--meta)}
+footer{margin-top:64px;border-top:1px solid var(--hair);padding-top:20px;font-size:13px;color:var(--meta)}
+footer a{color:var(--deep);text-decoration:none;margin-right:16px}
+hr{border:0;border-top:1px solid var(--hair);margin:32px 0}
